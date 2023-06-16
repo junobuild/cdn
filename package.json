@@ -1,0 +1,16 @@
+{
+  "name": "@junobuild/cdn",
+  "version": "0.0.1",
+  "description": "A CDN for Juno",
+  "scripts": {
+    "clean:prism:js": "find ./src/libs/prismjs/1.29.0/components -type f ! -name '*.min.js' -delete",
+    "clean:prism:css": "find ./src/libs/prismjs/1.29.0/themes -type f ! -name '*.min.css' -delete",
+    "clean:prism:plugins": "rm -r ./src/libs/prismjs/1.29.0/plugins",
+    "clean:prism": "npm run clean:prism:js && npm run clean:prism:css && npm run clean:prism:plugins",
+    "get:prism:min": "curl https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js -o ./src/libs/prismjs/1.29.0/prism.min.js"
+  },
+  "author": "David Dal Busco",
+  "dependencies": {
+    "prismjs": "^1.29.0"
+  }
+}
