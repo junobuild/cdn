@@ -4,4 +4,7 @@ A CDN for Juno.
 
 ## Content
 
-This repository contains a collection of libraries that can be loaded with script tags in Juno's console.
+This repository contains:
+
+- a collection of libraries that can be loaded with script tags in Juno's console.
+- releases of the satellites and mission controls
