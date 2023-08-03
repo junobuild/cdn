@@ -15,5 +15,8 @@
     "prism-themes": "^1.9.0",
     "prismjs": "^1.29.0",
     "qr-creator": "^1.0.0"
+  },
+  "devDependencies": {
+    "prettier": "^3.0.0"
   }
 }
