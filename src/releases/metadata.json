@@ -1,6 +1,7 @@
 {
   "mission_controls": ["0.0.7", "0.0.6", "0.0.5", "0.0.4", "0.0.3", "0.0.2"],
   "satellites": [
+    "0.0.12",
     "0.0.11",
     "0.0.10",
     "0.0.9",
@@ -13,6 +14,22 @@
   ],
   "orbiters": ["0.0.1", "0.0.2"],
   "releases": [
+    {
+      "tag": "0.0.20",
+      "console": "0.0.7",
+      "observatory": "0.0.3",
+      "mission_control": "0.0.7",
+      "satellite": "0.0.12",
+      "orbiter": "0.0.2"
+    },
+    {
+      "tag": "0.0.19",
+      "console": "0.0.7",
+      "observatory": "0.0.3",
+      "mission_control": "0.0.7",
+      "satellite": "0.0.11",
+      "orbiter": "0.0.2"
+    },
     {
       "tag": "0.0.18",
       "console": "0.0.7",
