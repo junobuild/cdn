@@ -1,5 +1,6 @@
 {
   "mission_controls": [
+    "0.0.9",
     "0.0.8",
     "0.0.7",
     "0.0.6",
@@ -23,6 +24,14 @@
   ],
   "orbiters": ["0.0.3", "0.0.2", "0.0.1"],
   "releases": [
+    {
+      "tag": "0.0.22",
+      "console": "0.0.7",
+      "observatory": "0.0.4",
+      "mission_control": "0.0.9",
+      "satellite": "0.0.13",
+      "orbiter": "0.0.3"
+    },
     {
       "tag": "0.0.21",
       "console": "0.0.7",
