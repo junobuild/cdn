@@ -16,6 +16,14 @@ export default defineConfig({
           headers: [["Cache-Control", "max-age=31536000"]],
         },
         {
+          source: "**/*.woff2",
+          headers: [["Cache-Control", "max-age=31536000"]],
+        },
+        {
+          source: "**/*.svg",
+          headers: [["Cache-Control", "max-age=31536000"]],
+        },
+        {
           source: "**/releases/**/*",
           headers: [["Content-Type", "application/octet-stream"]],
         },
