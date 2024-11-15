@@ -17,6 +17,7 @@
     "qr-creator": "^1.0.0"
   },
   "devDependencies": {
+    "@junobuild/config": "^0.0.16",
     "prettier": "^3.0.0"
   }
 }
