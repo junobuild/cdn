@@ -1,0 +1,27 @@
+import { defineConfig } from "@junobuild/config";
+
+/** @type {import('@junobuild/config').JunoConfig} */
+export default defineConfig({
+  satellite: {
+    satelliteId: "fmkjf-bqaaa-aaaal-acpza-cai",
+    source: "src",
+    storage: {
+      headers: [
+        {
+          source: "**/*.js",
+          headers: [["Cache-Control", "max-age=31536000"]],
+        },
+        {
+          source: "**/*.css",
+          headers: [["Cache-Control", "max-age=31536000"]],
+        },
+        {
+          source: "**/releases/**/*",
+          headers: [["Content-Type", "application/octet-stream"]],
+        },
+      ],
+    },
+    encoding: [["**/releases/*.gz", "identity"]],
+    gzip: false,
+  },
+});
