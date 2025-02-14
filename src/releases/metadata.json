@@ -15,6 +15,7 @@
     "0.0.2"
   ],
   "satellites": [
+    "0.0.22",
     "0.0.21",
     "0.0.20",
     "0.0.19",
@@ -46,6 +47,38 @@
     "0.0.1"
   ],
   "releases": [
+    {
+      "tag": "0.0.44",
+      "console": "0.0.14",
+      "observatory": "0.0.8",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.0.8"
+    },
+    {
+      "tag": "0.0.43",
+      "console": "0.0.14",
+      "observatory": "0.0.8",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.21",
+      "orbiter": "0.0.8"
+    },
+    {
+      "tag": "0.0.42",
+      "console": "0.0.14",
+      "observatory": "0.0.8",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.21",
+      "orbiter": "0.0.8"
+    },
+    {
+      "tag": "0.0.41",
+      "console": "0.0.14",
+      "observatory": "0.0.8",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.21",
+      "orbiter": "0.0.8"
+    },
     {
       "tag": "0.0.40",
       "console": "0.0.14",
