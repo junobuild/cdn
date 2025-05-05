@@ -37,6 +37,7 @@
     "0.0.3"
   ],
   "orbiters": [
+    "0.2.0",
     "0.0.8",
     "0.0.7",
     "0.0.6",
@@ -48,9 +49,43 @@
   ],
   "releases": [
     {
+      "tag": "0.0.48",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.2.0",
+      "sputnik": "0.1.0"
+    },
+    {
+      "tag": "0.0.47",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.0.8",
+      "sputnik": "0.1.0"
+    },
+    {
+      "tag": "0.0.46",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.0.8"
+    },
+    {
+      "tag": "0.0.45",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.0.8"
+    },
+    {
       "tag": "0.0.44",
       "console": "0.0.14",
-      "observatory": "0.0.8",
+      "observatory": "0.0.9",
       "mission_control": "0.0.14",
       "satellite": "0.0.22",
       "orbiter": "0.0.8"
@@ -58,7 +93,7 @@
     {
       "tag": "0.0.43",
       "console": "0.0.14",
-      "observatory": "0.0.8",
+      "observatory": "0.0.9",
       "mission_control": "0.0.14",
       "satellite": "0.0.21",
       "orbiter": "0.0.8"
@@ -66,7 +101,7 @@
     {
       "tag": "0.0.42",
       "console": "0.0.14",
-      "observatory": "0.0.8",
+      "observatory": "0.0.9",
       "mission_control": "0.0.14",
       "satellite": "0.0.21",
       "orbiter": "0.0.8"
@@ -74,7 +109,7 @@
     {
       "tag": "0.0.41",
       "console": "0.0.14",
-      "observatory": "0.0.8",
+      "observatory": "0.0.9",
       "mission_control": "0.0.14",
       "satellite": "0.0.21",
       "orbiter": "0.0.8"
