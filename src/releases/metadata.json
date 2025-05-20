@@ -37,6 +37,7 @@
     "0.0.3"
   ],
   "orbiters": [
+    "0.2.1",
     "0.2.0",
     "0.0.8",
     "0.0.7",
@@ -48,6 +49,24 @@
     "0.0.1"
   ],
   "releases": [
+    {
+      "tag": "0.0.50",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.2.1",
+      "sputnik": "0.1.0"
+    },
+    {
+      "tag": "0.0.49",
+      "console": "0.0.14",
+      "observatory": "0.0.9",
+      "mission_control": "0.0.14",
+      "satellite": "0.0.22",
+      "orbiter": "0.2.0",
+      "sputnik": "0.1.0"
+    },
     {
       "tag": "0.0.48",
       "console": "0.0.14",
