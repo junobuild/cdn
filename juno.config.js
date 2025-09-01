@@ -3,7 +3,9 @@ import { defineConfig } from "@junobuild/config";
 /** @type {import('@junobuild/config').JunoConfig} */
 export default defineConfig({
   satellite: {
-    satelliteId: "fmkjf-bqaaa-aaaal-acpza-cai",
+    ids: {
+      production: "fmkjf-bqaaa-aaaal-acpza-cai",
+    },
     source: "src",
     storage: {
       headers: [
@@ -30,6 +32,6 @@ export default defineConfig({
       ],
     },
     encoding: [["**/releases/*.gz", "identity"]],
-    gzip: false,
+    precompress: false,
   },
 });
