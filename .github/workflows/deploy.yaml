@@ -8,17 +8,18 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
+    permissions:
+      id-token: write
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
 
-      - uses: actions/setup-node@v3
+      - uses: actions/setup-node@v4
         with:
-          node-version: "18"
+          node-version: 24
+          registry-url: 'https://registry.npmjs.org'
 
       - name: Deploy to Juno
         uses: junobuild/juno-action@main
         with:
-          args: deploy
-        env:
-          JUNO_TOKEN: ${{ secrets.JUNO_TOKEN }}
+          args: hosting deploy
