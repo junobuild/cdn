@@ -63,6 +63,24 @@
   ],
   "releases": [
     {
+      "tag": "0.0.71",
+      "console": "0.4.1",
+      "observatory": "0.5.1",
+      "mission_control": "0.1.2",
+      "satellite": "0.2.0",
+      "orbiter": "0.2.3",
+      "sputnik": "0.3.1"
+    },
+    {
+      "tag": "0.0.70",
+      "console": "0.4.1",
+      "observatory": "0.5.1",
+      "mission_control": "0.1.2",
+      "satellite": "0.2.0",
+      "orbiter": "0.2.3",
+      "sputnik": "0.2.0"
+    },
+    {
       "tag": "0.0.69",
       "console": "0.4.1",
       "observatory": "0.5.1",
